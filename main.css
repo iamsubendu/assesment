@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .topImage {
+      position: relative;
+      width: 12%;
+      height: 10%;
+      left: 45%;
+  }
+  .navbar {
+    position: relative;
+    left: 9%;
+    padding-top: 4vw;
+  }
+  .navbar ul  {
+      display: flex;
+      flex-direction: row;
+  }
+  .navbar li {
+    padding: 14px 16px;
+    font-size: 20px;
+  }
+  .navbar a {
+      text-decoration: none;
+      color: black;
+  }
+  .navbar a:hover {
+      color: rgb(135, 135, 236);
+  }
+  .leftNav {
+      display: flex;
+      padding-left: 35%;
+  }
+  .leftNav li {
+      padding : 14px 2px;
+  }
+  .navImg {
+      width: 4vw;
+      height: 2.5vw;
+  }
+  #myVideo {
+      width: 100%;
+      padding-top: .3vw;
+  }
+  .videoBckgrnd ul{
+    color: white;
+    font-size: 110px;
+    font-weight: bold;
+    position: relative;
+    top: -40vw;
+    left: 22%;
+  }
+  #classes {
+    position: relative;
+    padding-left: 15.5vw;
+  }
+  .line1 {
+    width: 8%;
+    border-top: 5px solid white;
+    position: relative;
+    top: -37vw;
+    left: 45vw;
+  }
+  .videoBckgrnd p {
+      font-size: 4vw;
+      color: white;
+      font-weight: bold;
+      position: relative;
+      top: -35vw;
+      left: 40vw;
+  }
+  .videoBtn {
+      width: 30%;
+      display: flex;
+      position: relative;
+      top: -29vw;
+      left: 33vw;
+      justify-content: space-between;
+  } 
+  .videoBtn button {
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 1vw;
+    background-color:rgba(200, 200, 214, 0.5);
+  }
+  .videoBtn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+  }
+  .container2 {
+    width: 65%;
+    height: 50vw;
+    background-color: rgb(189, 221, 189);
+    position: relative;
+    left: 18vw;
+    top: -23vw;
+    overflow: hidden;
+  }
+ .container2 p {
+   display: flex;
+   justify-content: center;
+   padding-top: 15px;
+   color: rgb(129, 126, 126);
+ }
+ .container2 pre {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5vw;
+}
+.imgBox {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2vw;
+  padding-left: 2vw;
+}
+.imgBox img {
+  width: 20vw;
+  height: 17vw;
+  padding: 2vw;
+  clip-path: circle();
+  border-radius: 70%;
+}
+.imgBox p {
+  color: black;
+}
+.container2 .lstLine {
+  color: black;
+  font-weight: bold;
+  padding-top: 2vw;
+  position: relative;
+  left: 25vw;
+}
